@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "dev": "tsc index.ts --outDir ./dist -w"
+    "build": "tsc --project tsconfig.json --outFile ./dist/index.js"
   },
   "author": "",
   "license": "ISC",
