@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "tsc --project tsconfig.json --outFile ./dist/index.js",
+    "build": "tsc --project tsconfig.app.json --outFile ./dist/index.js",
     "test": "mocha --require ts-node/register **/*spec.ts",
-    "dev": "tsc --project tsconfig.json --outFile ./dist/index.js -w"
+    "dev": "tsc --project tsconfig.app.json --outFile ./dist/index.js -w"
   },
   "author": "",
   "license": "ISC",

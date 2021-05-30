@@ -1,8 +1,7 @@
 {
   "compilerOptions": {
     "target": "es2015",
-    "sourceMap": true,
-    "module": "amd"
+    "sourceMap": true
   },
   "include": [
     "index.ts"
