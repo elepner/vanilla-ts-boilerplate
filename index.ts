@@ -6,13 +6,13 @@ const inc = (function incFn() {
   let counter = 0;
   return () => {
     return counter++;
-  }
+  };
 })();
 
-inc()
-inc()
-inc()
-inc()
+inc();
+inc();
+inc();
+inc();
 
 
 
