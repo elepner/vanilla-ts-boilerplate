@@ -1,19 +1,6 @@
-import { appendElement } from './app/test';
+import { appendElement } from './app/counter';
 
-const el = document.getElementsByTagName('body')[0];
+const btn = document.getElementById('button') as HTMLButtonElement;
+const text = document.getElementById('count') as HTMLSpanElement;
 
-const inc = (function incFn() {
-  let counter = 0;
-  return () => {
-    return counter++;
-  };
-})();
-
-inc();
-inc();
-inc();
-inc();
-
-
-
-appendElement(el);
+appendElement(btn, text);

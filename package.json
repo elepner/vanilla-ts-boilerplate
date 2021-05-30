@@ -4,7 +4,8 @@
   "description": "",
   "scripts": {
     "build": "tsc --project tsconfig.json --outFile ./dist/index.js",
-    "test": "mocha --require ts-node/register **/*spec.ts"
+    "test": "mocha --require ts-node/register **/*spec.ts",
+    "dev": "tsc --project tsconfig.json --outFile ./dist/index.js -w"
   },
   "author": "",
   "license": "ISC",
